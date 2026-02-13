@@ -1,0 +1,45 @@
+.hero{
+ padding: 20px;   
+ height: 60vh;
+ display:flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background-image: url("bg,avif");
+ background-repeat: repeat;
+ background-position: center;
+ background-size: cover;
+ color: white;
+
+}
+
+.hero h1 {
+  font-size: 24px;
+  font-weight: 700px;
+  
+}
+.hero-action {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.btn {
+  display: inline-block;
+  border: 2px solid white; 
+  padding: 8px 12px;       
+  text-decoration: none;
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  border: 2px solid black;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: white;
+}
+.primary {
+  background-color: rgba(135, 135, 255, 0.745);
+}
